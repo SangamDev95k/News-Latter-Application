@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Latter Application</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a class="button" onclick="toggleNewsLatter()">Suscribe Now</a>
+    <div class="hidden" id="NewsLatter">
+        <h2>Join Our Exclusive New Latter</h2>
+        <p>
+            Follow my other Courses As Well from my Instruction Profile
+        </p>
+        <div class="box">
+            <input type="Email" placeholder="Enter Email">
+        </div>
+        <div class="box">
+            <button type="submit">Sign up</button>
+        </div>
+        <a class="close" onclick="toggleNewsLatter()">
+            <i class="fa fa-times fa-2x" aria-hidden="true"></i>
+        </a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
